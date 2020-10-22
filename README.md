@@ -4,19 +4,19 @@ The implementation of [Incorporate Semantic Structures into Machine Translation 
 
 ## Structure
 
-- model/						
+- model/						  
   from TUPA pretrained model
-- vocab/						 
+- vocab/						  
   from TUPA pretrained model
 - data/						    
   for data storage
-- align.py						
+- align.py					    
   modified scripts from UCCA
-- meteor5.py				
+- meteor5.py			    
   a self-implemented Meteor (users may want to use other Meteor instead)
 - process.py                 
   the functions to modify original scores
-- uccamt.py
+- uccamt.py                  
   the main functions (modify this to get model run on specific dataset)
 
 ## Dependencies
